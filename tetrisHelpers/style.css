@@ -1,0 +1,42 @@
+html, body {
+	font-family: "Arial";
+	font-size: 12pt;
+	background-color: #FFEAD2;
+}
+
+
+
+#canvas {
+    float: left;
+    width: 400px;
+    height: 100%;
+    overflow: auto;
+    box-sizing: border-box;
+}
+
+#body {
+    float: left;
+    width: 50%;
+    height: 100%;
+    overflow: auto;
+    box-sizing: border-box;
+}
+
+.domelem {
+	margin: 10px;
+}
+
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  padding: 3px;
+}
+
+tr:nth-child(even) {
+  background-color: #D6EEEE;
+}
+tr:nth-child(odd) {
+  background-color: #f0f0f0;
+}

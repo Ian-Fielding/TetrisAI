@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Tetris</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+
+		<div id="canvas">
+		</div>
+		<div id="body">
+			<div id="button-row" class="domelem"></div>
+			<div id="checkbox-row" class="domelem">
+				<label for="legal" class="domelem"> Use all possible actions?
+					<input type="checkbox" onclick="clearDOM()" name="legal" id="legal">
+				</label>
+			</div>
+			<div id="tabdiv" class="domelem">
+				<table id="tab">
+					<tr>
+						<th>Run</th>
+						<th>Score</th>
+					</tr>
+				</table>
+			</div>
+		</div>
+
+		<script src="pixi.js"></script>
+		<script src="tetris.js"></script>
+		<script src="agents.js"></script>
+		<script src="gui.js"></script>
+		
+	</body>
+</html>
